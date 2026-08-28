@@ -1,0 +1,5 @@
+Our project is “DNA and Protein Sequence Alignment using the Needleman–Wunsch Algorithm.” The main purpose of this project is to compare two DNA or protein sequences and find their optimal global alignment. Comparing biological sequences manually becomes difficult and time-consuming when the sequences are long, so our project provides an algorithmic solution to this problem.
+
+We use the Needleman–Wunsch algorithm, which is a Dynamic Programming technique. The user enters two DNA or protein sequences, and the system creates a scoring matrix based on match, mismatch, and gap penalties. After constructing the matrix, the algorithm performs traceback to find the best alignment between the two sequences.
+
+The final result displays the aligned sequences and alignment score, and helps identify matching or conserved regions between them. Through this project, we demonstrate important DSA concepts such as dynamic programming, 2D matrices, optimal substructure, and traceback and show how these concepts can be applied to a real-world bioinformatics problem.
